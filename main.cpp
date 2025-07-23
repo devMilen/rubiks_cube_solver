@@ -3,7 +3,7 @@
 #include <array>
 
 int randomFunc() {
-	std::cout << "yes";
+	std::cout << "yes he  he  he  he";
 	return  1;
 }
 
