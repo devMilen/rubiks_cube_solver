@@ -8,6 +8,6 @@ int randomFunc() {
 }
 
 int main() {
-	std::print("is done repository: {}", true);
+	std::print("is done repository: {} he he   he", true);
 	std::cin.get();
 }
