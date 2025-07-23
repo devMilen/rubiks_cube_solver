@@ -1,13 +1,15 @@
 #include <print>
 #include <iostream>
 #include <array>
-
-int randomFunc() {
-	std::cout << "yes he  he  he  he";
-	return  1;
-}
+#include "glfw3.h"
 
 int main() {
-	std::print("is done repository: {} he he he", true);
+	glfwInit();
+	glfwWindowHint(GLFW_CLIENT_API, GLFW_NO_API);
+	glfwWindowHint(GLFW_RESIZABLE, GLFW_FALSE);
+	GLFWwindow* window = glfwCreateWindow(800, 600, "", nullptr, nullptr);
+	while (!glfwWindowShouldClose(window))
+		glfwPollEvents();
+	glfwTerminate();
 	std::cin.get();
 }
