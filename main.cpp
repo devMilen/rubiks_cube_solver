@@ -4,6 +4,7 @@
 
 int randomFunc() {
 	std::cout << "yes";
+	return  1;
 }
 
 int main() {
