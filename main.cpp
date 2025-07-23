@@ -1,9 +1,9 @@
 #include <print>
 #include <iostream>
-#include <vector>
+#include <array>
 
 int main() {
-	std::vector<float> vec = {};
+	std::array<float, 2> arr = {1, 2};
 	std::print("is done repository: {}", true);
 	std::cin.get();
 }
