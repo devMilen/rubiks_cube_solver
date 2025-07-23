@@ -7,7 +7,7 @@ int main() {
 	glfwInit();
 	glfwWindowHint(GLFW_CLIENT_API, GLFW_NO_API);
 	glfwWindowHint(GLFW_RESIZABLE, GLFW_FALSE);
-	GLFWwindow* window = glfwCreateWindow(800, 600, "", nullptr, nullptr);
+	GLFWwindow* window = glfwCreateWindow(801, 600, "", nullptr, nullptr);
 	while (!glfwWindowShouldClose(window))
 		glfwPollEvents();
 	glfwTerminate();
