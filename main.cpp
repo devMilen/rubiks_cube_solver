@@ -1,6 +1,7 @@
 #include <print>
 #include <iostream>
 #include <array>
+#include "GL/glew.h"
 #include "glfw3.h"
 
 int main() {
@@ -11,6 +12,6 @@ int main() {
 	while (!glfwWindowShouldClose(window))
 		glfwPollEvents();
 	glfwTerminate();
-	std::print("");
+	std::print("STANAAAAA");
 	std::cin.get();
 }
