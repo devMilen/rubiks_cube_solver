@@ -10,5 +10,5 @@ int main() {
 	while (!glfwWindowShouldClose(window))
 		glfwPollEvents();
 	std::print("is done repository: {} he he he", true);
-	std::cin.get();
+	std::cin.get();//alahagbar
 }
