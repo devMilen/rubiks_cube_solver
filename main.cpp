@@ -11,6 +11,5 @@ int main() {
 	while (!glfwWindowShouldClose(window))
 		glfwPollEvents();
 	glfwTerminate();
-	std::print("");
 	std::cin.get();
 }
